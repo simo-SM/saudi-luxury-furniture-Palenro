@@ -636,8 +636,8 @@ export function Nav({ ready }: { ready: boolean }) {
         </nav>
 
         <div ref={mobileMenuFooterRef} className="absolute bottom-12 flex flex-col items-center gap-2 z-10" style={{ color: "var(--nav-text)", opacity: 0.45 }} dir="rtl">
-          <p className="text-sm tracking-wider font-medium">دارجة وأمازيغية</p>
-          <p className="text-xs font-light">حفظ ونشر اللغات والثقافة المغربية</p>
+          <p className="text-sm tracking-wider font-medium" style={{ letterSpacing: "0.2em", fontFamily: "Inter Tight, Inter, sans-serif" }}>PALENRO</p>
+          <p className="text-xs font-light">أثاث خشبي فاخر في السعودية</p>
           <p className="text-xs font-light mt-1" style={{ fontFamily: "Arial" }}>© 2026</p>
         </div>
       </div>
